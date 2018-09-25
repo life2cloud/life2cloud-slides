@@ -1,0 +1,13 @@
+.r_resources_table_1 th:first-of-type {
+    width: 70px;
+}
+.r_resources_table_1 th:nth-child(2) {
+    width: 70px;
+}
+.r_resources_table_2 th:first-of-type {
+    width: 70px;
+}
+.r_resources_table_2 th:nth-child(2) {
+    width: 70px;
+}
+
