@@ -1,21 +1,26 @@
----
-title: "R语言基础"
-subtitle: "Basic R"
-author: "李剑峰"
-date: "2018/9/24"
-output:
-  xaringan::moon_reader:
-    css: [default, zh-CN.css, custom.css]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R语言学习入门</title>
+    <meta charset="utf-8">
+    <meta name="author" content="李剑峰" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="zh-CN.css" type="text/css" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# R语言学习入门
+## Getting started with R language learning
+### 李剑峰
+### 2018/9/25
+
 ---
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+
+
 
 class: center, middle
 
@@ -155,7 +160,7 @@ class: center, middle, inverse
 - 构建属于自己的知识框架来将零散的知识点进行整合将减少你的遗忘率
 - 经过你深度思考和实践之后的知识印象最为深刻
 
-如果你已经很久没有深度的思考过，请在这里停留一下：上面所罗列的内容是否正确？是否还有其他技巧和原理可以帮助你学习一项新事物？对于[R语言](https://baike.baidu.com/item/R%E8%AF%AD%E8%A8%80/4090790?fr=aladdin)的学习，这些技巧和原理怎么应用？
+如果你已经很久没有深度的思考过，请在这里停留一下：上面所列内容是否正确？是否还有其他技巧和原理可以帮助你学习一项新事物？对于[R语言](https://baike.baidu.com/item/R%E8%AF%AD%E8%A8%80/4090790?fr=aladdin)的学习，这些技巧和原理怎么应用？
 
 **扩展阅读：**[娱乐至死](https://item.jd.com/11679294.html)，[简单的逻辑学](https://item.jd.com/11262696.html)
 ---
@@ -168,9 +173,9 @@ class: center, middle, inverse
 
 通俗一点的讲，[知识库](https://en.wikipedia.org/wiki/Knowledge_base)（knowledge base）是一种可以让你在短时间内找到解决某些问题的工具和资源的集合。不管是个人，商业公司、政治团体或者国家主体都可以构建属于他们自己的知识库。
 
-比如，基于计算机技术和网络的[互联网](https://en.wikipedia.org/wiki/Internet)就是目前最大的一种知识库。基于历史的原因，英语作为全世界使用范围最广的语言，其目前在互联网上的内容产出仍然占据主导地位。典型的就是科学论文的发表大多以英语为载体第一时间发表（知名的如Web of science数据库，又常被人叫做<u>**SCI**</u>数据库）。
+比如，基于计算机技术和网络的[互联网](https://en.wikipedia.org/wiki/Internet)就是目前最大的一种知识库。基于历史的原因，英语作为全世界使用范围最广的语言，其目前在互联网上的内容产出仍然占据主导地位。典型的就是科学论文的发表大多以英语为载体第一时间发表（知名的如Web of science数据库，又常被人叫做&lt;u&gt;**SCI**&lt;/u&gt;数据库）。
 
-当然，随着中国互联网的迅猛发展，中文资料目前也在变得丰富。据[统计](http://www.chyxx.com/industry/201708/549142.html)，2017年中国的网民人数已经达到<u>**7.5**</u>亿。有越来越多的以中文为载体的知识（包括R语言）在[知乎](https://www.zhihu.com)，[简书](https://www.jianshu.com/)、[微信公众号](https://mp.weixin.qq.com/)以及个人博客和论坛（如，个人博客：[Yihui](http://yihui.name/)，[生信菜鸟团](http://www.bio-info-trainee.com/)，[我的博客](https://life2cloud.com)，论坛：[统计之都](https://d.cosx.org/)，[生信技能树](https://vip.biotrainee.com/)）等知识共享平台上被发布。
+当然，随着中国互联网的迅猛发展，中文资料目前也在变得丰富。据[统计](http://www.chyxx.com/industry/201708/549142.html)，2017年中国的网民人数已经达到&lt;u&gt;**7.5**&lt;/u&gt;亿。有越来越多的以中文为载体的知识（包括R语言）在[知乎](https://www.zhihu.com)，[简书](https://www.jianshu.com/)、[微信公众号](https://mp.weixin.qq.com/)以及个人博客和论坛（如，个人博客：[Yihui](http://yihui.name/)，[生信菜鸟团](http://www.bio-info-trainee.com/)，[我的博客](https://life2cloud.com)，论坛：[统计之都](https://d.cosx.org/)，[生信技能树](https://vip.biotrainee.com/)）等知识共享平台上被发布。
 
 你现在就可以试着去搜索[互联网](https://cn.bing.com/search?q=R语言)上与R语言相关的知识。
 
@@ -217,7 +222,7 @@ class: center, middle, inverse
 
 输出层：
 
-- 使用[Notion](https://notion.so)记录日程和笔记，其中笔记来源于文字类（书籍、文章）以及视频（慕课、TED等）。这是我分享的一个例子:[第十五届研究生数学建模比赛（C题）](](https://www.notion.so/sjtu/C-ccb67b76c60b4b8a961de0770a700b60))。
+- 使用[Notion](https://notion.so)记录日程和笔记，其中笔记来源于文字类（书籍、文章）以及视频（慕课、TED等）。这是我分享的两个例子:[第十五届研究生数学建模比赛（C题）](https://www.notion.so/sjtu/C-ccb67b76c60b4b8a961de0770a700b60)和[Notion的使用体验](https://www.notion.so/sjtu/2018-08-20-notion-97b88f76da32425a95c76561cb5ab41a)。
 - 使用[blogdown](https://github.com/rstudio/blogdown)创作、管理和分享博客文章。以[我的博客](https://life2cloud.com/)为例。
 - 使用[bookdown](https://github.com/rstudio/bookdown)创作、管理和分享书籍。比如[《bookdown: Authoring Books and Technical Documents with R Markdown》](https://bookdown.org/yihui/bookdown/)这本书。
 - 使用[xaringan](https://github.com/yihui/xaringan)创作、管理和分享PPT。如这个PPT所展示。
@@ -251,10 +256,15 @@ class: center, middle, inverse
 
 #### 在线学习资料（视频类）
 
-- [慕课 - 多元统计分析及R语言建模](https://www.icourse163.org/course/JNU-1002335007) 
-- [慕课 - R语言入门](https://www.imooc.com/learn/446)
-- [慕课 - R语言入门与进阶](https://www.imooc.com/learn/828)
-- [慕课 - R语言之数据可视化](https://www.imooc.com/learn/640)
+- [网易云课堂：R语言](https://study.163.com/courses-search?keyword=R%E8%AF%AD%E8%A8%80)
+- [腾讯课堂：R语言](https://ke.qq.com/course/list/R%E8%AF%AD%E8%A8%80)
+- [中国大学MOOCC：R语言](https://www.icourse163.org/search.htm?search=R%E8%AF%AD%E8%A8%80)
+- [慕课网：R语言](https://www.imooc.com/search/?words=R%E8%AF%AD%E8%A8%80)
+- [慕课网：多元统计分析及R语言建模](https://www.icourse163.org/course/JNU-1002335007) 
+- [慕课网：R语言入门](https://www.imooc.com/learn/446)
+- [慕课网：R语言入门与进阶](https://www.imooc.com/learn/828)
+- [慕课网：R语言之数据可视化](https://www.imooc.com/learn/640)
+- [Coursera: R programming](https://www.coursera.org/courses?query=R%20programming)
 ---
 
 ## 如何学习R？
@@ -263,10 +273,30 @@ class: center, middle, inverse
 
 #### 在线学习资料（文字类）
 
-如果你想了解和学习最新发布的R包或者相关统计学方法，你就必须利用好丰富的互联网资源。来源主要包括以下几个类型：期刊论文（如Bioinformatics、BMC 如Bioinformatics、Nature Method、Genome Biology、Genome Resarch、Nucleic Acids Research等），GitHub Trend，个人博客，RSS聚合站点（如[R-Bloggers](https://www.r-bloggers.com)），BioStar、ResarchGate等。
+在这张Slide中，罗列了一些学习R语言的一些链接，里面有一些是其他人分享的他们在学习R语言时遇到的问题，希望你也可以从中获得一些提示，或者作为你开始系统学习R语言的第一部分阅读内容。
 
 - [r-bloggers: How to learn R](https://www.r-bloggers.com/how-to-learn-r/)
 - [r-bloggers: Tutorials for learning R](https://www.r-bloggers.com/how-to-learn-r-2/)
+- [w3cschool: R语言教程](https://www.w3cschool.cn/r/)
+- [R Learning Path: From beginner to expert in R in 7 steps](https://www.kdnuggets.com/2016/03/datacamp-r-learning-path-7-steps.html)
+- [Learn Data Science Online](https://www.datacamp.com/)
+- [Rstudio online-learning](https://www.rstudio.com/online-learning/)
+- [Bookdown Home](https://bookdown.org/home/)
+- [CSDN: 聊聊我的R语言学习路径和感受](https://blog.csdn.net/kMD8d5R/article/details/78967610)
+- [知乎：该如何学习 R 语言？](https://www.zhihu.com/question/21654166)
+---
+
+## 如何学习R？
+
+### 收集和分类阅读资料
+
+#### 在线学习资料（文字类）
+
+如果你想了解和学习最新发布的R包或者相关统计学方法，上一页Slide则远远不够了，你需要利用好互联网上所有可以获得的资源，并加以筛选和阅读。
+
+这些资源主要包括以下几个类型：RSS聚合站点（如[R-Bloggers](https://www.r-bloggers.com)）、个人博客、论坛（如[Biostars](https://www.biostars.org/)、[ResarchGate](https://www.researchgate.net/)）、[GitHub Trend](https://github.com/explore)以及最前沿的期刊论文也会不断有新的R语言相关的学习资源，如绘图脚本、数据分析R包等（常见于[Bioinformatics](https://academic.oup.com/bioinformatics)、[BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/)、[Nature Method](https://www.nature.com/nmeth/)、[Genome Biology](https://genomebiology.biomedcentral.com/)、[Genome Resarch](https://genome.cshlp.org/)、[Nucleic Acids Research](https://academic.oup.com/nar/)等）。
+
+特别的，你可能需要特别关注一下[Rstudio](https://www.rstudio.com/)发布的一些[博客](https://blog.rstudio.com/)和学习资源，比如[视频](https://resources.rstudio.com/webinars)和[PPT](https://github.com/rstudio/rstudio-conf)，里面可能就包括了值得你学习的一些应用或者技巧。
 
 ---
 
@@ -295,12 +325,70 @@ R语言作为[编程语言](https://baike.baidu.com/item/%E7%BC%96%E7%A8%8B%E8%A
 
 思考是你动手实践的前提，学习编程的时候，请抱着寻根问底的态度去学习，特别是对于一些关键概念（比如硬盘、内存和CPU、文件系统、绝对路径和相对路径、二进制和十进制、编译和解释型语言、对象、或与非运算等等）和基本原理。
 
-动手的含义主要在于学习编程可能比其他技能更需要你的动手实践和尝试。如果你是初学者，切记不要直接复制粘贴示例代码，一定不要有自己运行完一遍别人给的代码之后就有了自己学会了的想法。
+动手的含义主要在于学习编程可能比其他技能更需要你的动手实践和尝试。如果你是初学者，切记不要直接复制粘贴示例代码而不做任何其他尝试。特别的，不要觉得自己运行完一遍代码了，就觉得自己学会了。
 
 ---
 
 class: center, middle
 
+background-image: url(images/R.png)
+background-size: 200px
+background-position: 46% 7%
+
 ## 蟹蟹
 
+以上就是我为你收集和整理的与R语言学习相关的一些资源和注意事项。
+
+希望这份PPT对你的R语言学习有所帮助。
+
 本幻灯片由 R 包 [**xaringan**](https://github.com/yihui/xaringan) 生成，并由 [remark.js](https://remarkjs.com)、[**knitr**](http://yihui.name/knitr)、以及 [R Markdown](https://rmarkdown.rstudio.com)提供主要渲染功能。
+
+作者：[李剑峰](https://life2cloud.com)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
