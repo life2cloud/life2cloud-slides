@@ -245,22 +245,6 @@ class: center, middle, inverse
 - 其他
 ---
 
-## 如何学习R？
-
-### 收集和分类阅读资料
-
-#### 在线学习资料（视频类）
-
-- [网易云课堂：R语言](https://study.163.com/courses-search?keyword=R%E8%AF%AD%E8%A8%80)
-- [腾讯课堂：R语言](https://ke.qq.com/course/list/R%E8%AF%AD%E8%A8%80)
-- [中国大学MOOCC：R语言](https://www.icourse163.org/search.htm?search=R%E8%AF%AD%E8%A8%80)
-- [慕课网：R语言](https://www.imooc.com/search/?words=R%E8%AF%AD%E8%A8%80)
-- [慕课网：多元统计分析及R语言建模](https://www.icourse163.org/course/JNU-1002335007) 
-- [慕课网：R语言入门](https://www.imooc.com/learn/446)
-- [慕课网：R语言入门与进阶](https://www.imooc.com/learn/828)
-- [慕课网：R语言之数据可视化](https://www.imooc.com/learn/640)
-- [Coursera: R programming](https://www.coursera.org/courses?query=R%20programming)
----
 
 ## 如何学习R？
 
@@ -268,7 +252,7 @@ class: center, middle, inverse
 
 #### 在线学习资料（文字类）
 
-在这张Slide中，罗列了一些学习R语言的一些链接，里面有一些是其他人分享的他们在学习R语言时遇到的问题，希望你也可以从中获得一些提示，或者作为你开始系统学习R语言的第一部分阅读内容。
+下面我列出了一些与R语言学习相关的文字资料，里面有一些是其他人分享的他们在学习R语言时遇到的问题，希望你也可以从中获得一些提示。同时，也可以作为你系统学习R语言的开端。
 
 - [r-bloggers: How to learn R](https://www.r-bloggers.com/how-to-learn-r/)
 - [r-bloggers: Tutorials for learning R](https://www.r-bloggers.com/how-to-learn-r-2/)
@@ -287,12 +271,31 @@ class: center, middle, inverse
 
 #### 在线学习资料（文字类）
 
-如果你想了解和学习最新发布的R包或者相关统计学方法，上一页Slide则远远不够了，你需要利用好互联网上所有可以获得的资源，并加以筛选和阅读。
+如果你想了解和学习最新发布的R包或者相关统计学方法，单单通过书本和已有的视频教程是远远不够的，你需要利用互联网上所有可以获得的资源并加以筛选，这样你才可能更快地获取到第一手的信息和知识。
 
 这些资源主要包括以下几个类型：RSS聚合站点（如[R-Bloggers](https://www.r-bloggers.com)）、个人博客、论坛（如[Biostars](https://www.biostars.org/)、[ResarchGate](https://www.researchgate.net/)）、[GitHub Trend](https://github.com/explore)以及最前沿的期刊论文也会不断有新的R语言相关的学习资源，如绘图脚本、数据分析R包等（常见于[Bioinformatics](https://academic.oup.com/bioinformatics)、[BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/)、[Nature Method](https://www.nature.com/nmeth/)、[Genome Biology](https://genomebiology.biomedcentral.com/)、[Genome Resarch](https://genome.cshlp.org/)、[Nucleic Acids Research](https://academic.oup.com/nar/)等）。
 
-特别的，你可能需要特别关注一下[Rstudio](https://www.rstudio.com/)发布的一些[博客](https://blog.rstudio.com/)和学习资源，比如[视频](https://resources.rstudio.com/webinars)和[PPT](https://github.com/rstudio/rstudio-conf)，里面可能就包括了值得你学习的一些应用或者技巧。
+特别地，你可能需要特别关注一下[Rstudio](https://www.rstudio.com/)公司发布的一些[博客](https://blog.rstudio.com/)、[视频](https://resources.rstudio.com/webinars)和[PPT](https://github.com/rstudio/rstudio-conf)，里面可能会有值得你学习的一些应用或者编程思想。
 
+---
+
+## 如何学习R？
+
+### 收集和分类阅读资料
+
+#### 在线学习资料（视频类）
+
+现在随着慕课等在线课堂的兴起，越来越多的人选择以视频讲解开始R语言的学习，比如下面列出的一些网站。不过，正如我前面所说，书籍是第一选择，如果你觉得书籍实在看不下去，你也可以选择通过这些视频了解一些概念并降低你理解和掌握书本知识的难度。
+
+- [网易云课堂：R语言](https://study.163.com/courses-search?keyword=R%E8%AF%AD%E8%A8%80)
+- [腾讯课堂：R语言](https://ke.qq.com/course/list/R%E8%AF%AD%E8%A8%80)
+- [中国大学MOOCC：R语言](https://www.icourse163.org/search.htm?search=R%E8%AF%AD%E8%A8%80)
+- [慕课网：R语言](https://www.imooc.com/search/?words=R%E8%AF%AD%E8%A8%80)
+- [慕课网：多元统计分析及R语言建模](https://www.icourse163.org/course/JNU-1002335007) 
+- [慕课网：R语言入门](https://www.imooc.com/learn/446)
+- [慕课网：R语言入门与进阶](https://www.imooc.com/learn/828)
+- [慕课网：R语言之数据可视化](https://www.imooc.com/learn/640)
+- [Coursera: R programming](https://www.coursera.org/courses?query=R%20programming)
 ---
 
 ## 如何学习R？
